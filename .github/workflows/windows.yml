@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v6
       - name: Setup MSBuild
-        uses: microsoft/setup-msbuild@v2
+        uses: microsoft/setup-msbuild@v3
       - name: Setup Visual Studio shell
         uses: ilammy/msvc-dev-cmd@v1
       - uses: subosito/flutter-action@v2
